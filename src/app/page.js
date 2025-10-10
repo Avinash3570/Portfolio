@@ -47,6 +47,19 @@ import {
   IconServer,
   IconWorldWww,
   IconBolt,
+  IconLetterC,
+  IconBrandCpp,
+  IconBrandAws,
+  IconBrandAzure,
+  IconBrain,
+  IconBrandKotlin, // used for Keras
+  IconFlame, // used for PyTorch
+  IconNetworkOff, // used for RAG
+  IconLanguage,
+  IconRobot,
+  IconTree,
+  IconMathFunction,
+  IconLeaf as IconBrandSpringboot, // Using IconLeaf for SpringBoot
 } from "@tabler/icons-react";
 import { Highlighter } from "@/components/ui/highlighter";
 
@@ -264,6 +277,188 @@ export default function Home() {
       ),
       alt: "Git",
     },
+    // Programming Languages
+    {
+      node: (
+        <div className="flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-gray-800/50 to-gray-900/50 backdrop-blur-sm px-3 sm:px-6 py-2 sm:py-3 rounded-full border border-gray-700/30">
+          <IconLetterC className="text-blue-700" size={24} />
+          <span className="text-white font-medium sm:font-semibold text-sm sm:text-base">
+            C
+          </span>
+        </div>
+      ),
+      alt: "C",
+    },
+    {
+      node: (
+        <div className="flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-gray-800/50 to-gray-900/50 backdrop-blur-sm px-3 sm:px-6 py-2 sm:py-3 rounded-full border border-gray-700/30">
+          <IconBrandCpp className="text-blue-600" size={24} />
+          <span className="text-white font-medium sm:font-semibold text-sm sm:text-base">
+            C++
+          </span>
+        </div>
+      ),
+      alt: "C++",
+    },
+    
+    // Data Engineering
+    {
+      node: (
+        <div className="flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-gray-800/50 to-gray-900/50 backdrop-blur-sm px-3 sm:px-6 py-2 sm:py-3 rounded-full border border-gray-700/30">
+          <IconDatabase className="text-blue-500" size={24} />
+          <span className="text-white font-medium sm:font-semibold text-sm sm:text-base">
+            MySQL
+          </span>
+        </div>
+      ),
+      alt: "MySQL",
+    },
+    {
+      node: (
+        <div className="flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-gray-800/50 to-gray-900/50 backdrop-blur-sm px-3 sm:px-6 py-2 sm:py-3 rounded-full border border-gray-700/30">
+          <IconBrandAws className="text-orange-400" size={24} />
+          <span className="text-white font-medium sm:font-semibold text-sm sm:text-base">
+            AWS
+          </span>
+        </div>
+      ),
+      alt: "AWS",
+    },
+    {
+      node: (
+        <div className="flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-gray-800/50 to-gray-900/50 backdrop-blur-sm px-3 sm:px-6 py-2 sm:py-3 rounded-full border border-gray-700/30">
+          <IconBrandAzure className="text-blue-400" size={24} />
+          <span className="text-white font-medium sm:font-semibold text-sm sm:text-base">
+            Azure
+          </span>
+        </div>
+      ),
+      alt: "Azure",
+    },
+    // Machine Learning
+    {
+      node: (
+        <div className="flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-gray-800/50 to-gray-900/50 backdrop-blur-sm px-3 sm:px-6 py-2 sm:py-3 rounded-full border border-gray-700/30">
+          <IconBrain className="text-purple-400" size={24} />
+          <span className="text-white font-medium sm:font-semibold text-sm sm:text-base">
+            Neural Networks
+          </span>
+        </div>
+      ),
+      alt: "Neural Networks",
+    },
+   
+    {
+      node: (
+        <div className="flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-gray-800/50 to-gray-900/50 backdrop-blur-sm px-3 sm:px-6 py-2 sm:py-3 rounded-full border border-gray-700/30">
+          <IconBrandKotlin className="text-red-400" size={24} />
+          <span className="text-white font-medium sm:font-semibold text-sm sm:text-base">
+            Keras
+          </span>
+        </div>
+      ),
+      alt: "Keras",
+    },
+    {
+      node: (
+        <div className="flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-gray-800/50 to-gray-900/50 backdrop-blur-sm px-3 sm:px-6 py-2 sm:py-3 rounded-full border border-gray-700/30">
+          <IconFlame className="text-orange-600" size={24} />
+          <span className="text-white font-medium sm:font-semibold text-sm sm:text-base">
+            PyTorch
+          </span>
+        </div>
+      ),
+      alt: "PyTorch",
+    },
+    {
+      node: (
+        <div className="flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-gray-800/50 to-gray-900/50 backdrop-blur-sm px-3 sm:px-6 py-2 sm:py-3 rounded-full border border-gray-700/30">
+          <IconNetworkOff className="text-green-400" size={24} />
+          <span className="text-white font-medium sm:font-semibold text-sm sm:text-base">
+            RAG
+          </span>
+        </div>
+      ),
+      alt: "RAG",
+    },
+    {
+      node: (
+        <div className="flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-gray-800/50 to-gray-900/50 backdrop-blur-sm px-3 sm:px-6 py-2 sm:py-3 rounded-full border border-gray-700/30">
+          <IconLanguage className="text-blue-400" size={24} />
+          <span className="text-white font-medium sm:font-semibold text-sm sm:text-base">
+            NLP
+          </span>
+        </div>
+      ),
+      alt: "NLP",
+    },
+    {
+      node: (
+        <div className="flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-gray-800/50 to-gray-900/50 backdrop-blur-sm px-3 sm:px-6 py-2 sm:py-3 rounded-full border border-gray-700/30">
+          <IconRobot className="text-cyan-400" size={24} />
+          <span className="text-white font-medium sm:font-semibold text-sm sm:text-base">
+            LLM
+          </span>
+        </div>
+      ),
+      alt: "LLM",
+    },
+    // Software Dev
+    {
+      node: (
+        <div className="flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-gray-800/50 to-gray-900/50 backdrop-blur-sm px-3 sm:px-6 py-2 sm:py-3 rounded-full border border-gray-700/30">
+          <IconTree className="text-green-500" size={24} />
+          <span className="text-white font-medium sm:font-semibold text-sm sm:text-base">
+            Data Structures
+          </span>
+        </div>
+      ),
+      alt: "Data Structures",
+    },
+    {
+      node: (
+        <div className="flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-gray-800/50 to-gray-900/50 backdrop-blur-sm px-3 sm:px-6 py-2 sm:py-3 rounded-full border border-gray-700/30">
+          <IconMathFunction className="text-yellow-500" size={24} />
+          <span className="text-white font-medium sm:font-semibold text-sm sm:text-base">
+            Algorithms
+          </span>
+        </div>
+      ),
+      alt: "Algorithms",
+    },
+    {
+      node: (
+        <div className="flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-gray-800/50 to-gray-900/50 backdrop-blur-sm px-3 sm:px-6 py-2 sm:py-3 rounded-full border border-gray-700/30">
+          <IconCode className="text-green-500" size={24} />
+          <span className="text-white font-medium sm:font-semibold text-sm sm:text-base">
+            SpringBoot
+          </span>
+        </div>
+      ),
+      alt: "SpringBoot",
+    },
+    {
+      node: (
+        <div className="flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-gray-800/50 to-gray-900/50 backdrop-blur-sm px-3 sm:px-6 py-2 sm:py-3 rounded-full border border-gray-700/30">
+          <IconApi className="text-purple-400" size={24} />
+          <span className="text-white font-medium sm:font-semibold text-sm sm:text-base">
+            RESTful API
+          </span>
+        </div>
+      ),
+      alt: "RESTful API",
+    },
+    {
+      node: (
+        <div className="flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-gray-800/50 to-gray-900/50 backdrop-blur-sm px-3 sm:px-6 py-2 sm:py-3 rounded-full border border-gray-700/30">
+          <IconBrandDocker className="text-blue-500" size={24} />
+          <span className="text-white font-medium sm:font-semibold text-sm sm:text-base">
+            Docker
+          </span>
+        </div>
+      ),
+      alt: "Docker",
+    },
   ];
   // Projects data
   const projects = [
@@ -338,6 +533,33 @@ export default function Home() {
       achievements: [
         "Specialized in Physics, Chemistry, Mathematics.",
         "Achieved outstanding results in board examinations.",
+      ],
+    },
+  ];
+  // Work Experience data
+  const experience = [
+    {
+      title: "AI Developer Intern",
+      company: "Coding Jr.",
+      location: "Remote",
+      period: "June 2025 - Sept 2025",
+      icon: IconBolt, // Add this line
+      responsibilities: [
+        "Designed RAG pipeline for planto.ai integrating LLMs/NLP; raised response relevance 25%, cut query time 40% in tests.",
+        "Fine-tuned NLP models for sentiment analysis on feedback; achieved 92% accuracy, boosted satisfaction 15% via surveys.",
+        "Optimized RAG preprocessing for 50K+ LLM entries; reduced training time 30%, increased engagement 20%",
+      ],
+    },
+    {
+      title: "Research Intern - IIT Jodhpur",
+      company: "IIT Jodhpur",
+      location: "Jodhpur, Rajasthan",
+      period: "May 2025 - July 2025",
+      icon: IconBolt, // Add this line
+      responsibilities: [
+        "Developed a 2D mesh-free topology optimization framework with PINNs, reducing computation cost by 40% vs FEM.",
+        "Designed a dual-network model for deformation and material density, achieving 95% volume-constraint satisfaction.",
+        "Produced mesh-independent fields with 30% faster convergence and greater versatility to irregular domains.",
       ],
     },
   ];
@@ -590,6 +812,145 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Work Experience */}
+        <section id="experience" className="py-20 px-4 relative overflow-hidden">
+          {/* Background Elements */}
+          <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-black to-gray-900" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_40%,rgba(255,107,53,0.1),transparent_50%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_60%,rgba(247,147,30,0.1),transparent_50%)]" />
+
+          <div className="container mx-auto max-w-6xl relative z-10">
+            <motion.div
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+              className="text-center mb-16"
+            >
+              <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+                Work{" "}
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-red-600">
+                  Experience
+                </span>
+              </h2>
+              <p className="text-gray-300 text-lg max-w-2xl mx-auto">
+                My{" "}
+                <Highlighter action="underline" color="#FF9800">
+                  career path
+                </Highlighter>{" "}
+                and practical contributions in{" "}
+                <Highlighter action="highlight" color="#87CEFA">
+                   driving innovative
+                </Highlighter>{" "}
+                 tech projects.
+              </p>
+              <div className="w-24 h-1 bg-gradient-to-r from-orange-500 to-red-600 mx-auto rounded-full mt-6" />
+            </motion.div>
+
+            <div className="space-y-8">
+              {experience.map((work, index) => (
+                <motion.div
+                  key={work.title}
+                  initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  transition={{ duration: 0.8, delay: index * 0.2 }}
+                  viewport={{ once: true }}
+                  className={`flex flex-col lg:flex-row gap-6 lg:gap-8 items-center ${
+                    index % 2 === 1 ? "lg:flex-row-reverse" : ""
+                  }`}
+                >
+                  {/* Work Experience Card */}
+                  <div className="flex-1">
+                    <motion.div
+                      className="bg-gradient-to-br from-gray-800/40 to-gray-900/40 backdrop-blur-sm rounded-2xl p-6 sm:p-8 border border-gray-700/30 hover:border-orange-500/30 transition-all duration-300 group"
+                      whileHover={{ y: -10, scale: 1.02 }}
+                    >
+                      <div className="flex items-start gap-4 sm:gap-6">
+                        <div className="p-3 sm:p-4 bg-gradient-to-br from-orange-500/20 to-red-600/20 rounded-xl">
+                          <work.icon
+                            size={28}
+                            className="text-orange-400 sm:w-8 sm:h-8"
+                          />
+                        </div>
+
+                        <div className="flex-1">
+                          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-4">
+                            <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-white group-hover:text-orange-400 transition-colors">
+                              {work.title}
+                            </h3>
+                            <div className="flex items-center gap-2 text-orange-400 mt-2 lg:mt-0">
+                              <IconCalendar size={18} />
+                              <span className="font-medium">{work.period}</span>
+                            </div>
+                          </div>
+
+                          <div className="space-y-3 mb-6">
+                            <div className="flex flex-col lg:flex-row lg:items-center gap-2">
+                              <h4 className="text-base sm:text-lg font-semibold text-gray-200">
+                                {work.company}
+                              </h4>
+                              <span className="text-sm sm:text-base text-gray-400">
+                                • {work.location}
+                              </span>
+                            </div>
+                          </div>
+
+                          <div>
+                            <h5 className="text-gray-300 font-medium mb-3">
+                              Major Contributions:
+                            </h5>
+                            <ul className="space-y-2">
+                              {work.responsibilities.map((responsibility, i) => (
+                                <motion.li
+                                  key={i}
+                                  className="flex items-center gap-3 text-gray-300"
+                                  initial={{ opacity: 0, x: -20 }}
+                                  whileInView={{ opacity: 1, x: 0 }}
+                                  transition={{
+                                    duration: 0.5,
+                                    delay: index * 0.2 + i * 0.1,
+                                  }}
+                                  viewport={{ once: true }}
+                                >
+                                  <div className="w-2 h-2 bg-orange-400 rounded-full flex-shrink-0" />
+                                  <span>{responsibility}</span>
+                                </motion.li>
+                              ))}
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </motion.div>
+                  </div>
+
+                  {/* Timeline Connector */}
+                  <div className="hidden lg:flex flex-col items-center">
+                    <motion.div
+                      className="w-4 h-4 border-4 border-orange-500 bg-black rounded-full"
+                      initial={{ scale: 0 }}
+                      whileInView={{ scale: 1 }}
+                      transition={{ duration: 0.5, delay: index * 0.2 }}
+                      viewport={{ once: true }}
+                    />
+                    {index < education.length - 1 && (
+                      <motion.div
+                        className="w-1 h-32 bg-gradient-to-b from-orange-500 to-transparent"
+                        initial={{ height: 0 }}
+                        whileInView={{ height: 128 }}
+                        transition={{ duration: 0.8, delay: index * 0.2 + 0.3 }}
+                        viewport={{ once: true }}
+                      />
+                    )}
+                  </div>
+
+                  {/* Spacer for alternating layout */}
+                  <div className="flex-1 hidden lg:block" />
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* Skills Section */}
         <section id="skills" className="py-20 px-4 relative overflow-hidden">
           {/* Background */}
@@ -699,7 +1060,7 @@ export default function Home() {
                   pauseOnHover={true}
                   fadeOut={true}
                   fadeOutColor="rgba(0, 0, 0, 1)"
-                  scaleOnHover={true}
+                  scaleOnHover={true }
                   ariaLabel="Technical skills reverse"
                   className="py-6 opacity-75"
                 />

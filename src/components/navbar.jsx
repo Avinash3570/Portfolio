@@ -73,7 +73,7 @@ function Navbar({ className }) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.6 }}
         >
-          {["Home", "About", "Education", "Skills", "Projects", "Contact"].map(
+          {["Home", "About", "Education", "Experience", "Skills", "Projects", "Contact"].map(
             (item, index) => (
               <motion.a
                 key={item}
