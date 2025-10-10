@@ -146,7 +146,7 @@ export function HeroSection() {
                 />
               </motion.svg>
               <span className="text-lg text-orange-500">
-                {"Bihar, India".split("").map((char, index) => (
+                {"Jodhpur, India".split("").map((char, index) => (
                   <motion.span
                     key={index}
                     initial={{ opacity: 0, y: 20 }}

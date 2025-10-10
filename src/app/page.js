@@ -624,7 +624,7 @@ export default function Home() {
                 <div className="flex flex-wrap gap-4 pt-4">
                   <div className="flex items-center gap-2 text-orange-400">
                     <IconMapPin size={20} />
-                    <span>Bihar, India</span>
+                    <span>Jodhpur, India</span>
                   </div>
                   <div className="flex items-center gap-2 text-orange-400">
                     <IconMail size={20} />
@@ -641,9 +641,9 @@ export default function Home() {
                 className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6"
               >
                 {[
-                  { number: "20+", label: "Projects Completed" },
+                  { number: "25+", label: "Projects Completed" },
                   { number: "3+", label: "Years Experience" },
-                  { number: "20+", label: "Happy Clients" },
+                  { number: "10+", label: "Happy Clients" },
                 ].map((stat, index) => (
                   <motion.div
                     key={index}
@@ -1194,7 +1194,7 @@ export default function Home() {
                       <div>
                         <p className="font-medium">Location</p>
                         <p className="text-orange-400">
-                          Gaya Ji, Bihar, India
+                          Jodhpur, India
                         </p>
                       </div>
                     </div>
