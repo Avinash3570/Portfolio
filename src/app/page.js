@@ -240,7 +240,7 @@ export default function Home() {
           </span>
         </div>
       ),
-      alt: "TypeScript",
+      alt: "GitHub",
     },
     {
       node: (
