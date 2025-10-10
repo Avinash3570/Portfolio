@@ -382,7 +382,7 @@ export default function Home() {
                 className="space-y-4 sm:space-y-6"
               >
                 <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold text-white">
-                  Passionate Full-Stack Developer
+                  Passionate AI Developer
                 </h3>
                 <p className="text-gray-300 text-lg leading-relaxed">
                     I'm Avinash Kumar, a B.Tech student in Mechanical Engineering at IIT Jodhpur.
@@ -393,12 +393,12 @@ export default function Home() {
                     internships and projects, including
                     <strong className="text-white font-bold"> RAG pipelines, sentiment analysis, and topology optimization.</strong>,{" "}
                     Proficient in developing full-stack applications, data analysis, and optimizing models for efficiency.
-                    <p className="text-gray-300 text-lg leading-relaxed">
+                    </p>
+                  <p className="text-gray-300 text-lg leading-relaxed">
                   My expertise spans across {" "}
                   <strong className="text-white font-bold">Machine Learning, Neural Networks, Deep Learning, Natural Language Processing, Large Language Models, Trasformers, Data Structures & Algorithms. </strong>
                    I enjoy tackling complex problems with code, from denoising fluid flow data to community detection in networks.
-                </p>
-                </p>
+              </p>
                 <div className="flex flex-wrap gap-4 pt-4">
                   <div className="flex items-center gap-2 text-orange-400">
                     <IconMapPin size={20} />
