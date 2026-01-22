@@ -1219,7 +1219,7 @@ export default function Home() {
                     <IconBrandGithub size={24} className="text-orange-400" />
                   </motion.a>
                   <motion.a
-                    href="https://drive.google.com/file/d/1Muu2uC_bEadoX9NYFryi0ncls2mhg9d8/view?usp=drive_link"
+                    href="https://drive.google.com/file/d/1BECyPIrZuTckkxbc651BYngPCpQ96YJJ/view?usp=sharing"
                     target="_blank"
                     className="p-3 bg-gradient-to-br from-gray-700/50 to-gray-800/50 rounded-lg border border-gray-600/30 hover:border-orange-500/50 transition-all duration-300"
                     whileHover={{ scale: 1.1, y: -2 }}
